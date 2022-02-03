@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './Pages/components/header';
-import LandPage from './Pages/Landing';
+import LandingPage from './Pages/Landing';
+import Connect from './Pages/components/main/connect';
+import FileUploader from './components/FileUploader';
 
 
 
@@ -10,9 +12,10 @@ function App() {
 
   
   return (
-    <div className="App">
+    <div>
       {/* <Header/> */}
-      <LandPage/>
+      <LandingPage/>
+      <Connect/>
 
     </div>
   );

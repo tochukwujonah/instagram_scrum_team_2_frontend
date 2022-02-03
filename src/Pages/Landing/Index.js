@@ -1,14 +1,18 @@
 import { Box } from '@chakra-ui/react';
 import React from 'react';
-import LandingPage from '../Landing/Index.js'
+import Header from '../components/header';
+import Connect from '../components/main'
 
 
-function index() {
+const LandingPage =()=> {
   return (
       <Box>
           <Header/>
+          {/* <Connect/> */}
       </Box>
   )
+
+  
 }
 
-export default LandPage;
+export default LandingPage;
