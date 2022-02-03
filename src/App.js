@@ -4,6 +4,7 @@ import Header from './Pages/components/header';
 import LandingPage from './Pages/Landing';
 import Connect from './Pages/components/main/connect';
 import FileUploader from './components/FileUploader';
+import FindFriend from './components/FindFriend';
 
 
 
@@ -16,7 +17,7 @@ function App() {
       {/* <Header/> */}
       <LandingPage/>
       <Connect/>
-
+      {/* <FindFriend/> */}
     </div>
   );
 }
