@@ -104,24 +104,65 @@ const Connect =()=> {
                             /> <Spacer/><Spacer/><Spacer/><Spacer/>
                             <Input width ="full" type='text' borderRadius="12px" borderColor="#CECECE" placeholder='Search friends' />
                         </InputGroup>
-                       
-                        <HStack mt="2rem">
-                                <Image src={ ZeusAvatar } alt="Zeus"/>
-                                <HStack justifyContent="space-between">
-                                    <VStack mt="1rem">
-                                    <Text fontSize="10px" fontWeight="500">bryantrace_</Text>
-                                    <Text fontSize="10px" fontWeight="200">New to moment</Text>
-                                    </VStack>
+                    <VStack alignItems="flex-start" mt="1rem">
 
-                                    <Box color="#00A3FF">
-                                        + Follow
-                                    </Box>
+
+                            <VStack>
+                                    <HStack>
+                                        <Image src={ ZeusAvatar } alt="Zeus"/>
+                                        <VStack>
+                                            <HStack>
+                                                <VStack mt="1rem">
+                                                    <Text fontSize="10px" fontWeight="500">bryantrace_</Text>
+                                                    <Text fontSize="10px" mt="-1rem" fontWeight="200">New to moment</Text>
+                                                </VStack>
+
+                                                <Text color="#00A3FF">
+                                                    + Follow
+                                                </Text>
+                                            </HStack>
+                                        </VStack>
+                                    </HStack>
+                            </VStack>        
+
+                            <VStack>
+                                    <HStack>
+                                        <Image src={ ZeusAvatar } alt="Zeus"/>
+                                        <VStack>
+                                            <HStack>
+                                                <VStack mt="1rem">
+                                                    <Text fontSize="10px" fontWeight="500">bryantrace_</Text>
+                                                    <Text fontSize="10px" mt="-1rem" fontWeight="200">New to moment</Text>
+                                                </VStack>
+
+                                                <Text color="#00A3FF">
+                                                    + Follow
+                                                </Text>
+                                            </HStack>
+                                        </VStack>
+                                    </HStack>
+                            </VStack> 
+
+                            <HStack>
+                                <Image src={ ZeusAvatar } alt="Zeus"/>
+                                        <VStack>
+                                            <HStack>
+                                                <VStack mt="1rem">
+                                                    <Text fontSize="10px" fontWeight="500">bryantrace_</Text>
+                                                    <Text fontSize="10px" mt="-1rem" fontWeight="200">New to moment</Text>
+                                                </VStack>
+
+                                                <Text color="#00A3FF">
+                                                    + Follow
+                                                </Text>
+                                            </HStack>
+                                        </VStack>
                                 </HStack>
-                               
-                                
-                        </HStack>
+
+                        </VStack>       
                         
-                        <Button mt="1rem" fontSize="12px" w="full">Post</Button>
+                        
+                        
                                 
                         
                             

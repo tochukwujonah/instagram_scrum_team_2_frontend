@@ -1,0 +1,41 @@
+.form{
+  width: 100%;
+  margin-top: -2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.input-fields{
+  position: relative;
+  width: 100%;
+}
+.input{
+  display: inline-block;
+  width: 100%;
+  font-size: 1.2rem;
+  padding: .8rem 3.2rem;
+  border: 1px solid #ced4da;
+  outline: none;
+  border-radius: 9px;
+}
+.input:focus,
+.input:hover{
+  border: 2px solid #4dcbe6;
+}
+.form-icons{
+  position: absolute;
+  top: 25%;
+  left: 2%;
+  width: 1.4rem;
+  text-align: center;
+}
+.submit-input{
+  color: #fff;
+  background: #00B4DB;
+  border: none;
+  font-weight: 100;
+  font-size: 1.3rem;
+  letter-spacing: .03rem;
+  margin-top: 1.5rem;
+}
+
